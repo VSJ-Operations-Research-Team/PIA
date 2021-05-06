@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 import numpy as np
 import networkx as nx
-import mathplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 
 probs = np.loadtxt("matrix.csv", delimiter=',')
-max_points = len(probs())
+max_points = len(probs)
 
 G = nx.Graph()
 

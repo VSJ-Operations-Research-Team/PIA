@@ -23,11 +23,12 @@ for _ in range( throws ):
         count[row][0] += 1
     elif points + dice_roll >= max_points:
         count[row][max_points-1] += 1
-        count[max_points-1][0] += 1
+        count[max_points-1][max_points-1] += 1
         points = 0
     else:
         count[row][points + dice_roll-1] += 1
         points = points + dice_roll
+    
 
 # Estimar probabilidades basado en las cuentas
 probs = []
