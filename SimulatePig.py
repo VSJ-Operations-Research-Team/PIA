@@ -7,7 +7,7 @@ np.set_printoptions(precision=3, suppress=True, linewidth=200)
 
 
 # Configurar parámetros
-throws = 50_000_000
+throws = 100_000_000
 max_points = 100
 steps = 50
 
